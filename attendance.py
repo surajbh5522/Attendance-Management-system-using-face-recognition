@@ -29,17 +29,15 @@ def text_to_speech(user_text):
     engine.runAndWait()
 
 
-haarcasecade_path = "C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\haarcascade_frontalface_default.xml"
+haarcasecade_path = r"C:\Users\ravib\OneDrive\Documents\GitHub\Attendance-Management-system-using-face-recognition\haarcascade_frontalface_default.xml"
 trainimagelabel_path = (
-    "C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\TrainingImageLabel\\Trainner.yml"
+    r"C:\Users\ravib\OneDrive\Documents\GitHub\Attendance-Management-system-using-face-recognition\TrainingImageLabel\Trainner.yml"
 )
-trainimage_path = "C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\TrainingImage"
+trainimage_path = r"C:C:\Users\ravib\OneDrive\Documents\GitHub\Attendance-Management-system-using-face-recognition\Project Snap\TrainingImage"
 studentdetail_path = (
-    "C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\StudentDetails\\studentdetails.csv"
+    r"C:\Users\ravib\OneDrive\Documents\GitHub\Attendance-Management-system-using-face-recognition\StudentDetails\studentdetails.csv"
 )
-attendance_path = "C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\Attendance"
-
-
+attendance_path = r"C:\Users\ravib\OneDrive\Documents\GitHub\Attendance-Management-system-using-face-recognition\Attendance"
 window = Tk()
 window.title("Face recognizer")
 window.geometry("1280x720")
